@@ -7,13 +7,13 @@ const App = () => (
         <Navbar />
       </div>
     </div>
-    
+
     <div className={`Hero-container bg-primary ${styles.flexStart}`}>
       <div className={`Hero-component ${styles.boxWidth}`}>
-        <Hero/>
+        <Hero />
       </div>
     </div>
-    
+
     <div className={`Hero-container bg-primary ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`Hero-component ${styles.boxWidth} text-secondary`}>
         <Stats />
